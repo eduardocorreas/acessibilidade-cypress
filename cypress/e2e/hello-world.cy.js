@@ -26,7 +26,7 @@ describe('Aprendendo cypress básico',() =>{
     cy.checkA11y();
   })
 
-  it.only('Validação total de acessibilidade', ()=>{
+  it('Validação total de acessibilidade', ()=>{
     cy.visit('https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm');
     //cy.pageAccessibility();
     cy.componentAccessibility('h1');
